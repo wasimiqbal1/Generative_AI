@@ -17,10 +17,10 @@ import pandas as pd
 df : pd.DataFrame = pd.DataFrame({"Col1":[1,2,3],
                                 "Col2":['a','b','c']})
 
-# st.write(df)
-# st.table(df)
-# st.json(df.to_dict())
-# st.metric('My metric', 42, 2)
+st.write(df)
+st.table(df)
+st.json(df.to_dict())
+st.metric('My metric', 42, 2)
 
 st.title("Display Media")
 st.video("https://youtu.be/DavpqTWGal8?si=2oX6os0F6m_4W4mu")
